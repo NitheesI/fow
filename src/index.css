@@ -1,0 +1,57 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 1vh 2vw;
+  background-color: lightsalmon;
+}
+
+.logo{
+  width: 10vw;
+  border-radius: 100%;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  gap: 4vw;
+  font-size: x-large;
+  font-family: monospace;
+}
+.bodyContainer{
+  padding: 8vh 8vw;
+}
+.image{
+  width: 200px;
+  border-radius: 1rem;
+  
+}
+.card{
+  width: 100%;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  background-color: rgb(255, 210, 165);
+}
+
+.secondaryContainer{
+  margin-top: 8vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 2rem;
+  
+}
+.background{
+  padding: 20vh 20vw;
+  text-align: center;
+  background-color: rgb(255, 210, 165) ;
+}
+.about{
+  background-color: rgb(255, 210, 165) ;
+}
+
+
