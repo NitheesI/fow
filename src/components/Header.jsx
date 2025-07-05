@@ -10,7 +10,7 @@ function Header(){
         <img className="logo"src="logo.png"></img>
 
         <div className="nav">
-            <Link to="/body"><RiHome9Fill />Home</Link>
+            <Link to="/"><RiHome9Fill />Home</Link>
             <Link to="/about"><IoBook />About</Link>
             <Link to="/contact"><CgPhone />Contacts</Link>
             <Link to="/cart"><BiSolidCartDownload />Cart</Link>

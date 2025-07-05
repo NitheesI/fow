@@ -1,8 +1,8 @@
-import Header from "./components/header";
-import Body from "./components/Body";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Cart from "./components/Cart";
+import Header from "./components/Header.jsx";
+import Body from "./components/Body.jsx";
+import About from "./components/About.jsx";
+import Contact from "./components/Contact.jsx";
+import Cart from "./components/Cart.jsx";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router";
 
 function App(){
@@ -19,21 +19,21 @@ function App(){
       element:<Layout/>,
       children:[
         {
-      path:"/body",
-      element:<Body/>
-    },
-    {
-      path:"/contact",
-      element:<Contact/>
-    },
-    {
-      path:"/about",
-      element:<About/>
-    },
-    {
-      path:"/cart",
-      element:<Cart/>
-    }
+          path:"/",
+          element:<Body/>
+        },
+        {
+          path:"/contact",
+          element:<Contact/>
+        },
+        {
+          path:"/about",
+          element:<About/>
+        },
+        {
+          path:"/cart",
+          element:<Cart/>
+        }
       ]
     }
     
